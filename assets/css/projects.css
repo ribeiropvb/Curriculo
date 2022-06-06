@@ -1,0 +1,40 @@
+.projects-info{
+    background-color: var(--branco-suave);
+    color: var(--dark-blue);    
+}
+
+.projects-info-item a{
+    color: black;    
+}
+
+.projects-info-item a:hover{
+    color: var(--blue-gray);    
+}
+
+.project-info-item a::before{
+    text-decoration: none;
+}
+
+.project-info-item a::after{
+    text-decoration: none;
+}
+
+.projects-text{
+    color: rgb(61, 61, 61);
+}
+
+
+@media screen and (min-width: 768px){
+
+    .projects-info{
+        background-color: var(--branco-suave);
+        font-size: 1.2rem;        
+    }
+    
+    .projects-text{
+        color:var(--cinza-preto);
+        margin-bottom: 10px;
+        line-height: 1.2rem;
+    }
+
+}
