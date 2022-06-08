@@ -20,6 +20,22 @@
 	text-align: justify;  
 }
 
+.lista > li > div > a{
+	color: var(--branco-suave);
+}
+
+.lista a::before{
+	text-decoration: none;
+}
+ 
+.lista a::after{
+	text-decoration: none;
+} 
+
+.lista a:hover{
+	color: var(--cinza-preto); 
+}
+
 @media screen and (min-width: 768px){
 
     .professional-info{
